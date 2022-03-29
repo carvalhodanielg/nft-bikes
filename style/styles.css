@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+body{
+    background-color: blanchedalmond;
+    margin: 0;
+    padding: 0;
+}
+
+.first-div{
+    display: flex;
+    flex-direction: row;
+    background-image: url("../images/main-bike.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    border: 0;
+    margin: 0;
+}
+
+header{
+    /* border: solid 1px black; */
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    padding-left: 40px;
+    height: 100px;
+    width: 100vw;
+    color: white;
+    text-align: center;
+}
+
+.header-title{
+    width: 150px;
+    /* border: solid 1px red; */
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.header-title img{ 
+    height: 40px;
+    margin-top: 40px;
+}
+.header-title img:hover{
+    cursor: pointer;
+    fill: violet;
+}
+.header-menu{
+    /* border: solid 1px rgb(6, 45, 221); */
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: flex-end; 
+    margin-top: 40px;
+    margin-right: 80px;
+    }
+
+.header-menu p {
+    font-weight: bold;
+    font-size: .75rem;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-transform: uppercase;
+}
+.header-menu p:hover {
+    cursor: pointer;
+    color: rgb(65, 65, 65);
+}
+
+.button{
+    position: absolute;
+    /* border: 1px solid red; */
+    flex-direction: row;
+    width: 100vw;
+    margin-top: 50vh;
+    text-align: center;
+
+}
+.button button{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    height: 70px;
+    width: 250px;
+    background-color: black;
+    border: none;
+    color: rgb(218, 255, 2);
+}
+.button button:hover{
+    cursor: pointer;
+    background-color: rgb(218, 255, 2);
+    color: black;
+    transition: .05;
+}
+
+.second-div{
+    height: 400px;
+    width: 100vw;
+    background-color: rgb(48, 47, 47);
+}
