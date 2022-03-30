@@ -196,8 +196,8 @@ header{
 }
 
 .card h4{
-font-family: 'Space Mono', monospace;
-font-size: 1.5rem;;
+    font-family: 'Space Mono', monospace;
+    font-size: 1.5rem;
 }
 
 .card p{
@@ -265,8 +265,7 @@ font-size: 1.5rem;;
     /* width: 940px; */
     margin: 0 auto;
     text-align: center;
- 
-    border: solid red 1px;
+
     height: 100%;
 
 }
@@ -276,12 +275,13 @@ font-size: 1.5rem;;
     font-family: 'Space Mono', monospace;
     margin-bottom: 20px;
     font-size: 2.5rem;
+    margin-top: 80px;
 }
 
 .roadmap-content{
     /* width: 940px; */
      /* height: fit-content; */
-    border: solid blue 1px;
+ 
     display: flex;
     flex-wrap: wrap;
 
@@ -292,8 +292,8 @@ font-size: 1.5rem;;
 .roadmap-content-percent{
     width: 200px;
     height: 220px;
-    border: red solid 1px;
-    padding-top: 40px;
+
+    padding-top: 0px;
 
 
 }
@@ -304,7 +304,22 @@ font-size: 1.5rem;;
 
 }
 
-
+.roadmap-content-percent p{
+    color: rgb(218, 255, 2); 
+    font-size: 4rem;
+    margin-top: 20px;
+}
+.roadmap-content-text h1{
+    margin-top: 20px;
+    color: rgb(218, 255, 2);
+    font-size: 2.5rem;
+    font-weight: 100;
+}
+.roadmap-content-text p{
+    font-size: 1.2rem;
+    font-weight: 100;
+    line-height: 1.8;
+}
 
 
 
