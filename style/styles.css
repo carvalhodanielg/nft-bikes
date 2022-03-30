@@ -160,6 +160,7 @@ header{
     display: flex;
     width: 100vw;
     padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .container-cards{
@@ -175,8 +176,9 @@ header{
 
 .card{
     width: 330px;
-    height: 480px;
+    height: 500px;
     align-items: center;
+    margin-bottom: 30px;
     
 }
 
@@ -195,6 +197,15 @@ header{
     text-align: left;
 }
 
+.card h4{
+font-family: 'Space Mono', monospace;
+font-size: 1.5rem;;
+}
+
+.card p{
+    font-family: 'Work Sans', sans-serif;
+    line-height: 1.5;
+}
 
 
 
@@ -202,12 +213,13 @@ header{
 
 
 
-
-
-
-
-
-.forth-div{
+.galery{
     background-color: rgb(255, 255, 255);
-    height: 400px;
+    height: 1340px;
+}
+
+
+.roadmap{
+    background-color: rgb(33, 33, 33);
+     height: 500px; /*2192 */
 }
