@@ -8,6 +8,7 @@ body{
     background-color: rgb(255, 205, 205);
     margin: 0px;
     padding: 0px;
+    width: 100vw;
 }
 
 .first-div{
