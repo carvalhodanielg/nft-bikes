@@ -5,9 +5,9 @@
 }
 
 body{
-    background-color: blanchedalmond;
-    margin: 0;
-    padding: 0;
+    background-color: rgb(255, 205, 205);
+    margin: 0px;
+    padding: 0px;
 }
 
 .first-div{
@@ -96,11 +96,118 @@ header{
     cursor: pointer;
     background-color: rgb(218, 255, 2);
     color: black;
-    transition: .05;
+    transition: .05s;
 }
 
 .second-div{
-    height: 400px;
+    height: 640px;
     width: 100vw;
-    background-color: rgb(48, 47, 47);
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.child-container{
+    height: 440px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    
+}
+
+.content-container{
+    height: 430px;
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+    overflow-y: hidden;
+    
+}
+
+.container-video{
+    width: 480px;
+    height: 440px;
+    overflow-y: hidden;
+}
+.container-video img{
+    
+}
+
+.container-text {
+    flex: 1;
+    overflow-y: hidden;
+}
+
+.container-text h3{
+    color: rgb(44, 44, 44);
+    font-family: 'Space Mono', monospace;
+    font-size: 2.2rem;
+}
+
+.container-text p{
+    color: rgb(44, 44, 44);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.2rem;
+}
+
+
+.third-div{
+    background-color: rgb(33, 33, 33);
+    height: fit-content;
+    text-align: center;
+    color: white;
+    display: flex;
+    width: 100vw;
+    padding-top: 50px;
+}
+
+.container-cards{
+
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+
+.card{
+    width: 330px;
+    height: 480px;
+    align-items: center;
+    
+}
+
+.card img{
+    width: 200px;
+
+
+    
+}
+
+.card h4,
+.card p{
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.forth-div{
+    background-color: rgb(255, 255, 255);
+    height: 400px;
 }
