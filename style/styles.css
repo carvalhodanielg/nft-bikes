@@ -209,10 +209,15 @@ font-size: 1.5rem;;
 
 .galery{
     background-color: rgb(255, 255, 255);
-    height: 1440px;
+    min-height: 1440px;
+    max-height: fit-content;
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
  
 }
 
@@ -231,12 +236,17 @@ font-size: 1.5rem;;
 
 .galery-photos{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
+
     justify-content: space-between;
     margin-bottom: 20px;
+
 }
 .galery-photos img{
     height: 220px;
+    width: 220px;
+    margin-bottom: 20px;
 }
 
 .galery-slide img{
@@ -245,27 +255,61 @@ font-size: 1.5rem;;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .roadmap{
     background-color: rgb(33, 33, 33);
-     height: 500px; /*2192 */
+     height: 2192px; /*2192 */
+     padding-bottom: 40px;
+}
+
+.roadmap-container{
+    /* width: 940px; */
+    margin: 0 auto;
+    text-align: center;
+ 
+    border: solid red 1px;
+    height: 100%;
+
+}
+
+.roadmap-container h1{
+    color: white;
+    font-family: 'Space Mono', monospace;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+.roadmap-content{
+    /* width: 940px; */
+     /* height: fit-content; */
+    border: solid blue 1px;
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    color: white;
+}
+
+.roadmap-content-percent{
+    width: 200px;
+    height: 220px;
+    border: red solid 1px;
+    padding-top: 40px;
+
+
+}
+.roadmap-content-text{
+    text-align: left;
+    width: 730px;
+
+
+}
+
+
+
+
+
+
+.team{
+    background-color: white;
+    height: 500px;
 }
