@@ -184,9 +184,6 @@ header{
 
 .card img{
     width: 200px;
-
-
-    
 }
 
 .card h4,
@@ -209,14 +206,62 @@ font-size: 1.5rem;;
 
 
 
-
-
-
-
 .galery{
     background-color: rgb(255, 255, 255);
-    height: 1340px;
+    height: 1440px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+ 
 }
+
+.galery-container{
+    width: 940px;
+    margin: 0 auto;
+    font-family: 'Space Mono', monospace;
+}
+
+.galery-container h1{
+    font-family: 'Space Mono', monospace;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+
+.galery-photos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.galery-photos img{
+    height: 220px;
+}
+
+.galery-slide img{
+    width: 940px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .roadmap{
