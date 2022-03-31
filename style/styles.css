@@ -51,7 +51,7 @@ header{
 }
 .header-title img:hover{
     cursor: pointer;
-    fill: violet;
+
 }
 .header-menu{
     /* border: solid 1px rgb(6, 45, 221); */
@@ -492,11 +492,39 @@ transition: .05s;
 
 
 
-
-
-
-
 footer{
     background-color: white;
     height: 108px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 60px;
+    padding-left: 60px;
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+    color: rgb(48, 48, 48);
+}
+
+.footer-logo img{
+    filter: invert(100%);
+    width: 100px;
+}
+
+.footer-rights p{
+    display: inline;
+    font-weight: 500;
+    font-size: 18px;
+}
+.footer-rights p span{
+    color: rgb(90, 90, 90);
+    font-style: italic;
+
+}
+
+
+
+.footer-terms a{
+    color: black;
+    text-transform: none;
 }
