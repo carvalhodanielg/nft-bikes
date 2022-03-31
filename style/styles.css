@@ -334,5 +334,91 @@ header{
 
 .team{
     background-color: white;
+    min-height: 670px;
+    max-height: fit-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.team-container{
+    width: 940px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.team-text{
+    height: fit-content;
+    margin-bottom: 20px;
+}
+
+.team-text h1{
+    text-align: center;
+    font-family: 'Space Mono', monospace;
+    font-size: 2.4rem;
+}
+
+.team-text p{
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+}
+
+.team-crew{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.team-first,
+.team-second{
+    display: flex;
+    flex-direction: row;
+    width: 470px;
+    flex-wrap: wrap;
+
+}
+
+.team-crew img{
+    width: 200px;
+    margin: 10px;
+}
+.team-first-text,
+.team-second-text{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-right: 25px;
+}
+
+.team-first-text h1,
+.team-second-text h1{
+    font-family: 'Space Mono', monospace;
+    margin-bottom: -5px;
+    margin-top: -4px;
+ 
+}
+
+.team-first-text p,
+.team-second-text p{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+}
+
+.team-first-text p span,
+.team-second-text p span{
+    color: gray
+}
+
+
+.join{
+    background-color: grey ;
     height: 500px;
+}
+
+footer{
+    background-color: white;
+    height: 108px;
 }
