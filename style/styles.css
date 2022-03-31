@@ -415,8 +415,86 @@ header{
 
 .join{
     background-color: grey ;
-    height: 500px;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
+
+
+.join-container{
+    background-color: black;
+    height: 510px;
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+
+    
+}
+
+.join-engine{
+    width: 480px;
+    height: 510px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.join-engine img{
+    width: 440px;
+
+}
+
+.join-text{
+    width: 480px;
+    height: 500px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+}
+
+.join-text h1{
+    font-family: 'Space Mono', monospace;
+    font-size: 2.4rem;
+
+}
+
+.join-text p{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    
+}
+
+.join-text p span{
+    color: rgb(160, 159, 159);
+    font-weight: 400;
+}
+
+.join-text button{
+    width: 200px;
+    height: 48px;
+    border: 1px solid rgb(218, 255, 2);
+    background-color: black;
+    color: white;
+}
+
+.join-button:hover{
+cursor: pointer;
+background-color: rgb(218, 255, 2);
+color: black;
+transition: .05s;
+}
+
+
+
+
+
+
 
 footer{
     background-color: white;
