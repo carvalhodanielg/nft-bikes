@@ -548,6 +548,15 @@ footer{
     
 }
 
+.slow{
+    transition: 1.5s;
+}
+
+.slower{
+    transition: 2s;
+}
+
+
 [data-anime="left"]{
 
     transform: translate3d(-100px, 0px, 0px);
