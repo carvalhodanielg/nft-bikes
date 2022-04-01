@@ -522,10 +522,19 @@ footer{
     width: 100px;
 }
 
+.footer-rights{
+    text-align: center;
+    text-decoration: none;
+}
+.footer-rights a{
+color: black;
+}
+
 .footer-rights p{
     display: inline;
     font-weight: 500;
     font-size: 18px;
+ 
 }
 .footer-rights p span{
     color: rgb(90, 90, 90);
