@@ -566,3 +566,166 @@ footer{
     transform: translate3d(0px, 0px, 0px);
     opacity: 1;
 }
+
+
+
+/* queries */
+
+@media (max-width: 460px){
+
+.first-div{
+    background-image: url('../images/mobile-background.jpg');
+    width: 100vw;
+    height: 50vh;
+    background-size: cover;
+}
+
+.button{
+    display: none;
+}
+.second-div{
+    height: fit-content;
+}
+.second-div h3{
+   font-size: 24px;
+}
+.second-div p{
+    font-size: 12px;
+}
+
+
+
+.container-second-div{
+
+    width: 360px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+.container-video{
+    height: fit-content;
+}
+
+
+.content-container{
+    height: fit-content;
+    width: 80vw;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    overflow-y: hidden;
+    
+}
+
+.child-container{
+    height: fit-content;
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    overflow-y: hidden;
+    
+}
+
+.content-container img{
+    width: 75vw;
+    
+}
+
+
+.galery-photos{
+    margin: 10px auto;
+    text-align: center;
+    justify-content: center;
+}
+
+.galery-container img{
+    width: 320px;
+    height: 320px;
+}
+
+#carouselExampleControls{
+    display: none;
+}
+
+
+.roadmap-container{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.roadmap-content-text h1{
+    font-size: 24px;
+}
+.roadmap-content-text p{
+    font-size: 14px;
+}
+
+.team-container{
+    height: fit-content;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.team-crew{
+    padding-bottom: 50px;
+}
+
+.team-first,
+.team-second{
+    height: fit-content;
+}
+
+.team-first-text,
+.team-second-text{
+    flex: auto;
+}
+
+.team-first-text h1,
+.team-second-text h1{
+    font-size: 24px;
+}
+.team-first-text p,
+.team-second-text p{
+    font-size: 14px;
+}
+
+
+
+.team-first-image img,
+.team-second-image img{
+    width: 300px;
+    height: 300px;
+}
+.join{
+    height: 80vh;
+}
+
+.join-container{
+    width: 330px;
+    height: 270px;
+}
+
+.join-engine{
+    display: none;
+    height: 0;
+}
+
+.join-text{
+    height: 270px
+}
+
+.join-text h1{
+    font-size: 24px;
+}
+
+.join-text p{
+    font-size: 14px;
+}
+
+}
