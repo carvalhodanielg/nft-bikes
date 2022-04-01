@@ -4,6 +4,16 @@
     overflow-x: hidden;
 }
 
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-top: inherit;
+    margin-bottom: inherit;
+    font-weight: bold;
+    line-height: inherit;
+    
+}
+
+
+
 body{
     background-color: rgb(255, 205, 205);
     margin: 0px;
@@ -131,9 +141,7 @@ header{
     height: 440px;
     overflow-y: hidden;
 }
-.container-video img{
-    
-}
+
 
 .container-text {
     flex: 1;
@@ -175,32 +183,31 @@ header{
 }
 
 
-.card{
+.mycard{
     width: 330px;
     height: 500px;
     align-items: center;
     margin-bottom: 30px;
-    
 }
 
-.card img{
+.mycard img{
     width: 200px;
 }
 
-.card h4,
-.card p{
+.mycard h4,
+.mycard p{
     padding-left: 20px;
     padding-right: 20px;
     color: white;
     text-align: left;
 }
 
-.card h4{
+.mycard h4{
     font-family: 'Space Mono', monospace;
     font-size: 1.5rem;
 }
 
-.card p{
+.mycard p{
     font-family: 'Work Sans', sans-serif;
     line-height: 1.5;
 }
@@ -231,6 +238,7 @@ header{
     font-family: 'Space Mono', monospace;
     margin-bottom: 20px;
     font-size: 2.5rem;
+    padding-bottom: 5px;
 }
 
 
@@ -247,6 +255,10 @@ header{
     height: 220px;
     width: 220px;
     margin-bottom: 20px;
+}
+
+.galery-photos img:hover{
+    cursor: pointer;
 }
 
 .galery-slide img{
@@ -490,8 +502,6 @@ color: black;
 transition: .05s;
 }
 
-
-
 footer{
     background-color: white;
     height: 108px;
@@ -519,10 +529,7 @@ footer{
 .footer-rights p span{
     color: rgb(90, 90, 90);
     font-style: italic;
-
 }
-
-
 
 .footer-terms a{
     color: black;
