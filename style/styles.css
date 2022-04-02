@@ -582,6 +582,67 @@ color: black;
 
 @media (max-width: 460px){
 
+/* ------------------------ */
+header{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    padding-left: 5px;
+    height: 50px;
+    width: 100vw;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+
+.header-title{
+    width: 80px;
+    align-items: center;
+    margin-left: 30px;
+    margin-right: 10px;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+#header-hide{
+    display: none;
+}
+
+.header-title img{ 
+    height: 20px;
+    margin-top: 0;
+}
+
+.header-title img:hover{
+    cursor: pointer;
+    filter: invert(10%);
+
+}
+.header-menu{
+    /* border: solid 1px rgb(6, 45, 221); */
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: flex-end; 
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.header-menu p {
+    font-weight: bold;
+    font-size: 10px;
+    margin-left: 2px;
+    margin-right: 20px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+.header-menu p:hover {
+    cursor: pointer;
+    color: rgb(65, 65, 65);
+}
+
+/* ------------------------ */
+
 .first-div{
     background-image: url('../images/mobile-background.jpg');
     width: 100vw;
@@ -602,7 +663,7 @@ color: black;
     font-size: 12px;
 }
 
-
+/* ------------------------ */
 
 .container-second-div{
 
@@ -644,7 +705,7 @@ color: black;
     
 }
 
-
+/* ------------------------ */
 .galery-photos{
     margin: 10px auto;
     text-align: center;
@@ -659,7 +720,7 @@ color: black;
 #carouselExampleControls{
     display: none;
 }
-
+/* ------------------------ */
 
 .roadmap-container{
     padding-right: 20px;
@@ -671,7 +732,7 @@ color: black;
 .roadmap-content-text p{
     font-size: 14px;
 }
-
+/* ------------------------ */
 .team-container{
     height: fit-content;
     padding-left: 20px;
@@ -711,6 +772,8 @@ color: black;
     width: 300px;
     height: 300px;
 }
+
+/* ------------------------ */
 .join{
     height: 80vh;
 }
@@ -736,5 +799,111 @@ color: black;
 .join-text p{
     font-size: 14px;
 }
+
+/* ------------------------ */
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 12px;
+    height: 120px;
+}
+
+.footer-logo{
+    padding: 5px;
+
+}
+
+.footer-logo img{
+    height: 20px;
+}
+
+#footer-dev{
+font-size: 14px;
+margin-bottom: 10px;
+}
+#footer-credit{
+font-size: 12px;
+}
+
+}
+
+@media (max-width: 830px){
+
+    .first-div{
+   
+        width: 100vw;
+        height: 50vh;
+        background-size: cover;
+    }
+
+    .button{
+        margin-top: 25vh;
+    }
+
+    .second-div{
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+
+    .container-video{
+        width: 440px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container-video img{
+        width: 400px;
+        height: 400px;
+    }
+
+    .content-container{
+        width: 700px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .container-text {
+        width: 360px;
+        display: flex;
+        flex: auto;
+        flex-direction: column;
+        margin-left: 40px;
+        justify-content: center;
+    }
+    .container-text h3{
+        font-size: 26px;
+        width: 100%;
+    }
+
+    .container-text p{
+        font-size: 14px;
+    }
+
+
+
+    .galery-photos{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .galery-photos img{
+        width: 180px;
+        height: 180px;
+    }
+
+    #carouselExampleControls{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+
+
+    .team-text{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
 
 }
