@@ -906,4 +906,31 @@ font-size: 12px;
         padding-right: 40px;
     }
 
+    .join{
+        align-items: center;
+        width: 100vw;
+        height: 1000px;
+        flex-direction: row;
+        justify-content: center;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .join-container{
+        width: 700px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .join-engine img{
+        width: 350px;
+        height: 350px;
+    }
+
+    .join-text h1{
+        font-size: 28px;
+    }
+    .join-text p{
+        font-size: 14px;
+    }
 }
