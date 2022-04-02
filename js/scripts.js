@@ -31,3 +31,7 @@ function scrollAnime(){
 
 scrollAnime()
 
+
+function originalPage(){
+    alert("You'll be redirected to the original page!!")
+}

@@ -74,6 +74,8 @@ header{
     margin-right: 80px;
     }
 
+
+
 .header-menu p {
     font-weight: bold;
     font-size: .75rem;
@@ -81,6 +83,12 @@ header{
     margin-right: 20px;
     text-transform: uppercase;
 }
+
+.header-menu a{
+    text-decoration: none;
+    color: inherit;
+}
+
 .header-menu p:hover {
     cursor: pointer;
     color: rgb(65, 65, 65);
