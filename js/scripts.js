@@ -15,10 +15,6 @@ function animeScroll(){
    
     })
 
-
-    
-
-
 }
 
 

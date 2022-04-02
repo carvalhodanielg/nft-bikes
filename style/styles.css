@@ -9,10 +9,7 @@
     margin-bottom: inherit;
     font-weight: bold;
     line-height: inherit;
-    
 }
-
-
 
 body{
     background-color: rgb(255, 205, 205);
@@ -35,7 +32,6 @@ body{
 }
 
 header{
-    /* border: solid 1px black; */
     display: flex;
     flex-direction: row;
     flex: 1;
@@ -48,7 +44,6 @@ header{
 
 .header-title{
     width: 150px;
-    /* border: solid 1px red; */
     margin-left: 10px;
     margin-right: 10px;
     font-size: 2rem;
@@ -59,23 +54,20 @@ header{
     height: 40px;
     margin-top: 40px;
 }
+
 .header-title img:hover{
     cursor: pointer;
     filter: invert(10%);
-
 }
+
 .header-menu{
-    /* border: solid 1px rgb(6, 45, 221); */
     display: flex;
     flex-direction: row;
     flex: 1;
     justify-content: flex-end; 
     margin-top: 40px;
     margin-right: 80px;
-    }
-
-
-
+}
 .header-menu p {
     font-weight: bold;
     font-size: .75rem;
@@ -96,12 +88,10 @@ header{
 
 .button{
     position: absolute;
-    /* border: 1px solid red; */
     flex-direction: row;
     width: 100vw;
     margin-top: 50vh;
     text-align: center;
-
 }
 .button button{
     text-transform: uppercase;
@@ -112,6 +102,7 @@ header{
     border: none;
     color: rgb(218, 255, 2);
 }
+
 .button button:hover{
     cursor: pointer;
     background-color: rgb(218, 255, 2);
@@ -133,7 +124,6 @@ header{
     display: flex;
     flex-direction: row;
     margin-top: 100px;
-    
 }
 
 .content-container{
@@ -142,7 +132,6 @@ header{
     margin: 0 auto;
     display: flex;
     overflow-y: hidden;
-    
 }
 
 .container-video{
@@ -150,7 +139,6 @@ header{
     height: 440px;
     overflow-y: hidden;
 }
-
 
 .container-text {
     flex: 1;
@@ -169,7 +157,6 @@ header{
     font-size: 1.2rem;
 }
 
-
 .third-div{
     background-color: rgb(33, 33, 33);
     height: fit-content;
@@ -182,15 +169,12 @@ header{
 }
 
 .container-cards{
-
     width: 1000px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
 }
-
 
 .mycard{
     width: 330px;
@@ -221,8 +205,6 @@ header{
     line-height: 1.5;
 }
 
-
-
 .galery{
     background-color: rgb(255, 255, 255);
     min-height: 1440px;
@@ -230,11 +212,9 @@ header{
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
-
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
- 
 }
 
 .galery-container{
@@ -250,15 +230,12 @@ header{
     padding-bottom: 5px;
 }
 
-
 .galery-photos{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-
     justify-content: space-between;
     margin-bottom: 20px;
-
 }
 .galery-photos img{
     height: 220px;
@@ -272,22 +249,19 @@ header{
 
 .galery-slide img{
     width: 940px;
-
 }
 
 
 .roadmap{
     background-color: rgb(33, 33, 33);
-     height: fit-content; /*2192 */
-     padding-bottom: 40px;
+    height: fit-content; /*2192 */
+    padding-bottom: 40px;
 }
 
 .roadmap-container{
-    /* width: 940px; */
     margin: 0 auto;
     text-align: center;
     height: 100%;
-
 }
 
 .roadmap-container h1{
@@ -299,12 +273,8 @@ header{
 }
 
 .roadmap-content{
-    /* width: 940px; */
-     /* height: fit-content; */
- 
     display: flex;
     flex-wrap: wrap;
-
     justify-content: center;
     color: white;
 }
@@ -315,12 +285,11 @@ header{
     font-weight: 700;
     font-style: italic;
 }
+
 .roadmap-content-text{
     text-align: left;
     width: 650px;
     font-weight: 700;
-
-
 }
 
 .roadmap-content-percent p{
@@ -349,9 +318,6 @@ header{
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
 }
-
-
-
 
 .team{
     background-color: white;
@@ -398,13 +364,13 @@ header{
     flex-direction: row;
     width: 470px;
     flex-wrap: wrap;
-
 }
 
 .team-crew img{
     width: 200px;
     margin: 10px;
 }
+
 .team-first-text,
 .team-second-text{
     flex: 1;
@@ -419,7 +385,6 @@ header{
     font-family: 'Space Mono', monospace;
     margin-bottom: -5px;
     margin-top: -4px;
- 
 }
 
 .team-first-text p,
@@ -433,7 +398,6 @@ header{
     color: gray
 }
 
-
 .join{
     background-color: grey ;
     height: 90vh;
@@ -442,7 +406,6 @@ header{
     justify-content: center;
 }
 
-
 .join-container{
     background-color: black;
     height: 510px;
@@ -450,8 +413,6 @@ header{
     margin: 0 auto;
     display: flex;
     flex-direction: row;
-
-    
 }
 
 .join-engine{
@@ -461,12 +422,10 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
 }
 
 .join-engine img{
     width: 440px;
-
 }
 
 .join-text{
@@ -482,13 +441,11 @@ header{
 .join-text h1{
     font-family: 'Space Mono', monospace;
     font-size: 2.4rem;
-
 }
 
 .join-text p{
     font-family: 'Montserrat', sans-serif;
     line-height: 1.6;
-    
 }
 
 .join-text p span{
@@ -505,10 +462,10 @@ header{
 }
 
 .join-button:hover{
-cursor: pointer;
-background-color: rgb(218, 255, 2);
-color: black;
-transition: .05s;
+    cursor: pointer;
+    background-color: rgb(218, 255, 2);
+    color: black;
+    transition: .05s;
 }
 
 footer{
@@ -534,8 +491,9 @@ footer{
     text-align: center;
     text-decoration: none;
 }
+
 .footer-rights a{
-color: black;
+    color: black;
 }
 
 .footer-rights p{
@@ -544,6 +502,7 @@ color: black;
     font-size: 18px;
  
 }
+
 .footer-rights p span{
     color: rgb(90, 90, 90);
     font-style: italic;
@@ -554,15 +513,11 @@ color: black;
     text-transform: none;
 }
 
-
-
-
 /* animation */
 
 [data-anime]{
     opacity: 0;
     transition: 1s;
-    
 }
 
 .slow{
@@ -573,9 +528,7 @@ color: black;
     transition: 2s;
 }
 
-
 [data-anime="left"]{
-
     transform: translate3d(-100px, 0px, 0px);
 }
 
@@ -584,9 +537,7 @@ color: black;
     opacity: 1;
 }
 
-
-
-/* queries */
+/* media queries */
 
 @media (max-width: 460px){
 
@@ -624,10 +575,8 @@ header{
 .header-title img:hover{
     cursor: pointer;
     filter: invert(10%);
-
 }
 .header-menu{
-    /* border: solid 1px rgb(6, 45, 221); */
     display: flex;
     flex-direction: row;
     flex: 1;
@@ -644,6 +593,7 @@ header{
     text-transform: uppercase;
     margin-top: 10px;
 }
+
 .header-menu p:hover {
     cursor: pointer;
     color: rgb(65, 65, 65);
@@ -674,17 +624,14 @@ header{
 /* ------------------------ */
 
 .container-second-div{
-
     width: 360px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-
 }
 .container-video{
     height: fit-content;
 }
-
 
 .content-container{
     height: fit-content;
@@ -694,7 +641,6 @@ header{
     flex-wrap: wrap;
     flex-direction: row;
     overflow-y: hidden;
-    
 }
 
 .child-container{
@@ -705,12 +651,10 @@ header{
     flex-wrap: wrap;
     flex-direction: row;
     overflow-y: hidden;
-    
 }
 
 .content-container img{
     width: 75vw;
-    
 }
 
 /* ------------------------ */
@@ -773,8 +717,6 @@ header{
     font-size: 14px;
 }
 
-
-
 .team-first-image img,
 .team-second-image img{
     width: 300px;
@@ -831,6 +773,7 @@ footer{
 font-size: 14px;
 margin-bottom: 10px;
 }
+
 #footer-credit{
 font-size: 12px;
 }
