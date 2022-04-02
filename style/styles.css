@@ -860,6 +860,9 @@ font-size: 12px;
         height: 400px;
     }
 
+    .child-container{
+        width: 700px;
+    }
     .content-container{
         width: 700px;
         margin-left: 0;
