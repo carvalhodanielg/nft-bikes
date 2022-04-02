@@ -1,6 +1,9 @@
 # nft-bikes
 Recreating the Cycl:R NFT bikes.
 
+![image](https://user-images.githubusercontent.com/100332887/161384964-14b1ad37-9e47-4044-9563-1649c7b0c72d.png)
+
+
 The main goal in this project was to give some emphasis to CSS and HTML.
 The application was developed using HTML, CSS, JavaScript and Bootstrap.
 
